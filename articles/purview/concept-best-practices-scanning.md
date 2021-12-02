@@ -29,7 +29,7 @@ The design considerations and recommendations have been organized based on the k
 
 ### Design recommendations
 
-- If the metadata of the same data source is consumed by multiple teams, you can register and manage the data source at a parent collection and create corresponding scans under each subcollection, so relevant assets appear under each child collection. Sources without parents are grouped in a dotted box in the map view with no arrows linking them to parents.
+- If the metadata of the same data source is consumed by multiple teams, you can register and manage the data source at a parent collection and create corresponding scans so relevant assets appear under each child collection. Sources without parents are grouped in a dotted box in the map view with no arrows linking them to parents.
 
   :::image type="content" source="media/concept-best-practices/scanning-parent-child.png" alt-text="Screenshot that shows Azure Purview with data source registered at parent collection.":::
 
